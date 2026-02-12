@@ -1,0 +1,40 @@
+type=PROCTITLE msg=audit(1770847056.890:2420): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SOCKADDR msg=audit(1770847056.890:2420): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770847056.890:2420): arch=c000003e syscall=44 success=yes exit=1100 a0=3 a1=7fff58734440 a2=44c a3=0 items=0 ppid=23973 pid=23985 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770847056.890:2420): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=remove_rule key="cron-persistence" list=4 res=1
+----
+time->Wed Feb 11 21:57:36 2026
+type=PROCTITLE msg=audit(1770847056.890:2432): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=PATH msg=audit(1770847056.890:2432): item=0 name="/etc/cron.daily/" inode=253 dev=103:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1770847056.890:2432): cwd="/var/snap/amazon-ssm-agent/12322"
+type=SOCKADDR msg=audit(1770847056.890:2432): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770847056.890:2432): arch=c000003e syscall=44 success=yes exit=1100 a0=3 a1=7fff587368e0 a2=44c a3=0 items=1 ppid=23973 pid=23985 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770847056.890:2432): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=add_rule key="cron-persistence" list=4 res=1
+----
+time->Thu Feb 12 01:44:44 2026
+type=PROCTITLE msg=audit(1770860684.426:2754): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SOCKADDR msg=audit(1770860684.426:2754): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770860684.426:2754): arch=c000003e syscall=44 success=yes exit=1100 a0=3 a1=7fff95d6e7c0 a2=44c a3=0 items=0 ppid=24696 pid=24708 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770860684.426:2754): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=remove_rule key="cron-persistence" list=4 res=1
+----
+time->Thu Feb 12 01:44:44 2026
+type=PROCTITLE msg=audit(1770860684.427:2766): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=PATH msg=audit(1770860684.427:2766): item=0 name="/etc/cron.daily/" inode=253 dev=103:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1770860684.427:2766): cwd="/var/snap/amazon-ssm-agent/12322"
+type=SOCKADDR msg=audit(1770860684.427:2766): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770860684.427:2766): arch=c000003e syscall=44 success=yes exit=1100 a0=3 a1=7fff95d70c60 a2=44c a3=0 items=1 ppid=24696 pid=24708 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770860684.427:2766): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=add_rule key="cron-persistence" list=4 res=1
+----
+time->Thu Feb 12 01:45:39 2026
+type=PROCTITLE msg=audit(1770860739.745:2796): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SOCKADDR msg=audit(1770860739.745:2796): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770860739.745:2796): arch=c000003e syscall=44 success=yes exit=1100 a0=3 a1=7ffde88dfb40 a2=44c a3=0 items=0 ppid=24730 pid=24743 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1770860739.745:2796): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="cron-persistence" list=4 res=1
+----
+time->Thu Feb 12 01:45:39 2026
+type=PROCTITLE msg=audit(1770860739.745:2812): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=PATH msg=audit(1770860739.745:2812): item=0 name="/etc/cron.daily/" inode=253 dev=103:01 mode=040755 ouid=0 ogid=0 rdev=00:00 nametype=PARENT cap_fp=0 cap_fi=0 cap_fe=0 cap_fver=0 cap_frootid=0
+type=CWD msg=audit(1770860739.745:2812): cwd="/"
+type=SOCKADDR msg=audit(1770860739.745:2812): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770860739.745:2812): arch=c000003e syscall=44 success=yes exit=1100 a0=3 a1=7ffde88e1fe0 a2=44c a3=0 items=1 ppid=24730 pid=24743 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1770860739.745:2812): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="cron-persistence" list=4 res=1

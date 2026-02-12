@@ -1,0 +1,40 @@
+type=SYSCALL msg=audit(1770846964.302:2384): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7ffc6fa471e0 a2=43c a3=0 items=0 ppid=23944 pid=23957 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1770846964.302:2384): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="sudoers-change" list=4 res=1
+----
+time->Wed Feb 11 21:56:04 2026
+type=PROCTITLE msg=audit(1770846964.303:2396): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1770846964.303:2396): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7ffc6fa49680 a2=43c a3=0 items=0 ppid=23944 pid=23957 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1770846964.303:2396): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="sudoers-change" list=4 res=1
+----
+time->Wed Feb 11 21:57:36 2026
+type=PROCTITLE msg=audit(1770847056.890:2419): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SOCKADDR msg=audit(1770847056.890:2419): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770847056.890:2419): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7fff58734440 a2=43c a3=0 items=0 ppid=23973 pid=23985 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770847056.890:2419): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=remove_rule key="sudoers-change" list=4 res=1
+----
+time->Wed Feb 11 21:57:36 2026
+type=PROCTITLE msg=audit(1770847056.890:2431): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1770847056.890:2431): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7fff587368e0 a2=43c a3=0 items=0 ppid=23973 pid=23985 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770847056.890:2431): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=add_rule key="sudoers-change" list=4 res=1
+----
+time->Thu Feb 12 01:44:44 2026
+type=PROCTITLE msg=audit(1770860684.426:2753): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SOCKADDR msg=audit(1770860684.426:2753): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770860684.426:2753): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7fff95d6e7c0 a2=43c a3=0 items=0 ppid=24696 pid=24708 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770860684.426:2753): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=remove_rule key="sudoers-change" list=4 res=1
+----
+time->Thu Feb 12 01:44:44 2026
+type=PROCTITLE msg=audit(1770860684.427:2765): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1770860684.427:2765): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7fff95d70c60 a2=43c a3=0 items=0 ppid=24696 pid=24708 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts1 ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=snap.amazon-ssm-agent.amazon-ssm-agent key=(null)
+type=CONFIG_CHANGE msg=audit(1770860684.427:2765): auid=4294967295 ses=4294967295 subj=snap.amazon-ssm-agent.amazon-ssm-agent op=add_rule key="sudoers-change" list=4 res=1
+----
+time->Thu Feb 12 01:45:39 2026
+type=PROCTITLE msg=audit(1770860739.745:2795): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SOCKADDR msg=audit(1770860739.745:2795): saddr=100000000000000000000000
+type=SYSCALL msg=audit(1770860739.745:2795): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7ffde88dfb40 a2=43c a3=0 items=0 ppid=24730 pid=24743 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1770860739.745:2795): auid=4294967295 ses=4294967295 subj=unconfined op=remove_rule key="sudoers-change" list=4 res=1
+----
+time->Thu Feb 12 01:45:39 2026
+type=PROCTITLE msg=audit(1770860739.745:2811): proctitle=2F7362696E2F617564697463746C002D52002F6574632F61756469742F61756469742E72756C6573
+type=SYSCALL msg=audit(1770860739.745:2811): arch=c000003e syscall=44 success=yes exit=1084 a0=3 a1=7ffde88e1fe0 a2=43c a3=0 items=0 ppid=24730 pid=24743 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="auditctl" exe="/usr/sbin/auditctl" subj=unconfined key=(null)
+type=CONFIG_CHANGE msg=audit(1770860739.745:2811): auid=4294967295 ses=4294967295 subj=unconfined op=add_rule key="sudoers-change" list=4 res=1

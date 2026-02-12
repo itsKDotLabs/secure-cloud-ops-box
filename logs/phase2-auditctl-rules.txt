@@ -1,0 +1,13 @@
+-w /etc/sudoers -p wa -k sudoers-change
+-w /etc/cron.daily/e2scrub_all -p wa -k cron-persistence
+-w /home/ubuntu/.bashrc -p wa -k user-persistence
+-w /home/ubuntu/.profile -p wa -k user-persistence
+-w /etc/sudoers -p wa -k privilege-escalation
+-w /etc/passwd -p wa -k identity-change
+-w /etc/shadow -p wa -k identity-change
+-w /home/ubuntu/.ssh -p wa -k ssh-backdoor
+-w /etc/systemd -p wa -k systemd-persistence
+-w /home/ubuntu/.config/systemd -p wa -k systemd-user-persistence
+-w /etc/profile.d -p wa -k profile-persistence
+-w /usr/local/bin -p wa -k path-hijack
+-w /home/ubuntu/bin -p wa -k path-hijack
